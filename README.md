@@ -21,4 +21,10 @@ curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/haisho.m
 
 ## 使い方
 
-Claude Codeで `/haisho` を実行すると拝承モードが有効になる。
+Claude Codeで `/haisho` を実行すると拝承モードが有効になる。もう一度 `/haisho` を実行すると解除される。
+
+### 起動時に拝承モードをオンにする
+
+```bash
+claude --prompt '/haisho'
+```
