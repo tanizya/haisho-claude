@@ -6,15 +6,17 @@ Claude Code用カスタムスラッシュコマンド `/haisho`。
 
 ## インストール
 
+ワンライナー（現在のプロジェクトにインストール）：
+
 ```bash
-# クローン
-git clone https://github.com/tanizya/haisho-claude.git
+curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/install.sh | bash
+```
 
-# プロジェクトのスキルディレクトリにコピー
-cp haisho-claude/haisho.md your-project/.claude/skills/
+### 手動インストール
 
-# またはシンボリックリンク
-ln -s $(pwd)/haisho-claude/haisho.md your-project/.claude/skills/haisho.md
+```bash
+mkdir -p .claude/skills
+curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/haisho.md -o .claude/skills/haisho.md
 ```
 
 ## 使い方
