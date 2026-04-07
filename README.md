@@ -1,29 +1,29 @@
 # haisho-claude
 
-**Haisho (拝承)** — Born from Japan's intricate corporate culture, where every decision requires elaborate *nemawashi* (consensus-building) and layers of approval, engineers at a certain H-company invented the ultimate context-saving hack: a single two-character reply that is polite, instant, and accepts full responsibility. It became an internet sensation. Now, bring the power of Haisho to your Claude.
+**Haisho (拝承)** — In Japan's corporate culture of endless consensus-building and approval chains, engineers at a certain H-company invented the ultimate hack: a two-character reply that says "understood, I'm on it" — politely, instantly, and responsibly. Now, bring the power of Haisho to your Claude.
 
 Claude Code custom slash command `/haisho`. Enables minimal-context response mode.
 
-## インストール
+## Install
 
-ワンライナー（現在のプロジェクトにインストール）：
+One-liner (installs to the current project):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/install.sh | bash
 ```
 
-### 手動インストール
+### Manual install
 
 ```bash
 mkdir -p .claude/commands
 curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/haisho.md -o .claude/commands/haisho.md
 ```
 
-## 使い方
+## Usage
 
-Claude Codeで `/haisho` を実行すると拝承モードが有効になる。もう一度 `/haisho` を実行すると解除される。
+Run `/haisho` in Claude Code to enable Haisho mode. Run `/haisho` again to disable it.
 
-### 起動時に拝承モードをオンにする
+### Enable Haisho mode on startup
 
 ```bash
 claude --prompt '/haisho'
