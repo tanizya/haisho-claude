@@ -1,8 +1,8 @@
 # haisho-claude
 
-Claude Code用カスタムスラッシュコマンド `/haisho`。
+**Haisho (拝承)** — Born from Japan's intricate corporate culture, where every decision requires elaborate *nemawashi* (consensus-building) and layers of approval, engineers at a certain H-company invented the ultimate context-saving hack: a single two-character reply that is polite, instant, and accepts full responsibility. It became an internet sensation. Now, bring the power of Haisho to your Claude.
 
-了承・承知の返答を「拝承」の2文字のみにし、すべての応答を最小コンテキストで返すモードを有効化する。
+Claude Code custom slash command `/haisho`. Enables minimal-context response mode.
 
 ## インストール
 
