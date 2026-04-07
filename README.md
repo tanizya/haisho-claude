@@ -15,8 +15,8 @@ curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/install.
 ### 手動インストール
 
 ```bash
-mkdir -p .claude/skills
-curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/haisho.md -o .claude/skills/haisho.md
+mkdir -p .claude/commands
+curl -fsSL https://raw.githubusercontent.com/tanizya/haisho-claude/main/haisho.md -o .claude/commands/haisho.md
 ```
 
 ## 使い方
